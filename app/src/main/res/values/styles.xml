@@ -1,0 +1,103 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="line">
+        <item name="android:background">@color/bg_color</item>
+    </style>
+
+    <style name="line_vertical" parent="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+    <style name="line_horizontal" parent="line">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">fill_parent</item>
+
+        <item name="android:layout_gravity">center_horizontal</item>
+
+    </style>
+
+    <style name="bigBlueButton" parent="@style/bigButton">
+        <item name="android:background">@drawable/bg_btn_style_blue</item>
+    </style>
+
+
+    <style name="bigButton">
+        <item name="android:textSize">@dimen/bigButtonTextSize</item>
+        <item name="android:textColor">@color/white_color_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/largePadding</item>
+        <item name="android:paddingRight">@dimen/largePadding</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/normalButtonHeight</item>
+    </style>
+
+
+
+    <style name="smallButton">
+        <item name="android:textSize">@dimen/smallButtonTextSize</item>
+        <item name="android:textColor">@color/white_color_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/smallPadding</item>
+        <item name="android:paddingRight">@dimen/smallPadding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">@dimen/smallButtonWidth</item>
+        <item name="android:minHeight">@dimen/smallButtonHeight</item>
+    </style>
+
+
+
+
+    <style name="ware_title">
+
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="ware_price">
+        <item name="android:textColor">@color/crimson</item>
+        <item name="android:textSize">22sp</item>
+
+    </style>
+
+    <style name="editText_base">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:minHeight">@dimen/normalButtonHeight</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/border_color</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@null</item>
+
+    </style>
+
+    <style name="editText" parent="editText_base">
+
+        <item name="android:background">@drawable/selector_edittext</item>
+
+    </style>
+
+
+    <style name="bg">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/bg</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="empty_img">
+        <item name="android:layout_width">@dimen/def_height</item>
+        <item name="android:layout_height">@dimen/def_height</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+</resources>
